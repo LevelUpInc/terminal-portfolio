@@ -1,0 +1,121 @@
+@import url(https://fonts.googleapis.com/css2?family=Sono:wght@300&display=swap);
+:root {
+  --a: bg_changer;
+  --mainBg: url("https://r4.wallpaperflare.com/wallpaper/139/612/976/anime-manga-anime-girls-simple-background-wallpaper-69a0981d619afd9b9637f8bfb06166ad.jpg");
+  --b1: url("https://r4.wallpaperflare.com/wallpaper/39/346/426/digital-art-men-city-futuristic-night-hd-wallpaper-01b69d213afe95f35634472bcdf74a70.jpg");
+}
+body,
+html {
+  padding: 0;
+  margin: 0;
+  background: #000;
+  background-color: transparent;
+  scroll-behavior: smooth;
+  color: #fff;
+  padding: 8px;
+  font-family: Sono, sans-serif;
+  font-size: 12px;
+}
+html {
+  background: linear-gradient(#0000009f, #0000009f), var(--b1);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  animation-name: var();
+  animation-iteration-count: infinite;
+  animation-duration: 100s;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-timing-function: ease-in-out;
+  height: 100vh;
+}
+input {
+  outline: 0;
+  background: 0 0;
+  color: #fff;
+  border: none;
+  height: 1rem;
+  font-family: Sono, sans-serif;
+  font-size: 12px;
+}
+::-webkit-scrollbar {
+  width: 0;
+}
+::selection {
+  color: #da2e46;
+  background: 0 0;
+}
+.avater {
+  border-radius: 50%;
+  height: 200px;
+  opacity: 0.7;
+}
+.cmd {
+  color: #f7c332;
+}
+.hide {
+  visibility: hidden;
+}
+@media screen and (max-width: 767px) {
+  body,
+  html {
+    overflow-x: auto;
+  }
+}
+@keyframes bg_changer {
+  0% {
+    background: linear-gradient(#0000009f, #0000009f),
+      url(https://r4.wallpaperflare.com/wallpaper/139/612/976/anime-manga-anime-girls-simple-background-wallpaper-69a0981d619afd9b9637f8bfb06166ad.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  10% {
+    background: linear-gradient(#0000009f, #0000009f),
+      url(https://r4.wallpaperflare.com/wallpaper/772/112/956/anime-anime-girls-picture-in-picture-darling-in-the-franxx-wallpaper-99c0f8ad213a1d3b06f7a8afb0a1e65d.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  20% {
+    background: linear-gradient(#0000009f, #0000009f),
+      url(https://r4.wallpaperflare.com/wallpaper/748/549/126/artwork-digital-art-anime-girls-video-games-wallpaper-bb66ec0d43010f99d504cb498d2c3ce0.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  30% {
+    background: linear-gradient(#0000009f, #0000009f),
+      url(https://r4.wallpaperflare.com/wallpaper/734/513/177/anime-manga-anime-girls-simple-background-wallpaper-7990481dc13acdcba6f7f8ff7031564d.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  40% {
+    background: linear-gradient(#0000009f, #0000009f),
+      url(https://r4.wallpaperflare.com/wallpaper/309/227/619/fate-series-tohsaka-rin-archer-fate-stay-night-wallpaper-9980f85de13a3dfb3697e8cf700166fd.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  50% {
+    background: linear-gradient(#0000009f, #0000009f),
+      url(https://r4.wallpaperflare.com/wallpaper/523/235/790/anime-anime-girls-red-eyes-wallpaper-7980f80d31fa4d7bf6d7384f4051763d.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  60% {
+    background: linear-gradient(#0000009f, #0000009f), var(--bg6);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+}
